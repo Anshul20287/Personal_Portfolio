@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Anshul Bansal</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Home and navbar -->
+  <section class="home" id="home">
+    <div class="navbar">
+
+      <div class="left">
+        <p>Turning ideas into interactive websites</p>
+      </div>
+      <div class="right">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="left-content">
+        <h1>Hi, I'm <span>Anshul Bansal</span></h1>
+        <div class="text-animate">
+          <h3 id="role">
+            <span>W</span><span>E</span><span>B</span><span> </span>
+            <span>D</span><span>E</span><span>V</span><span>E</span><span>L</span><span>O</span><span>P</span><span>E</span><span>R</span>
+          </h3>
+        </div>
+        <p>Hello! I'm Anshul — a curious and creative mind stepping into the world of web development. I love
+          experimenting with code, learning new technologies, and building things that not only work but look good too.
+        </p>
+        <div class="btn">
+          <button class="btn1">Open to Opportunities</button>
+          <button class="btn2" onclick="location.href='#contact'">Let's Collaborate</button>
+        </div>
+      </div>
+      <div class="right-content">
+        <img src="ansh-removebg-preview.png" alt="Anshul" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about-me" id="about">
+    <div class="aboutme">
+      <h1 id="text" class="section-title">ABOUT ME</h1>
+      <img id="image1" />
+      <img id="image2" />
+      <img id="image3" />
+      <img src="ansh-removebg-preview.png" alt="img4" id="image4" />
+    </div>
+    <div id="scroller">
+      <div id="scroller-in">
+        <h2>WEB DEVELOPER</h2>
+        <h2>WEB DEVELOPER</h2>
+        <h2>WEB DEVELOPER</h2>
+        <h2>WEB DEVELOPER</h2>
+      </div>
+      <div id="scroller-in">
+        <h2>WEB DEVELOPER</h2>
+        <h2>WEB DEVELOPER</h2>
+        <h2>WEB DEVELOPER</h2>
+        <h2>WEB DEVELOPER</h2>
+      </div>
+    </div>
+    <div class="about-text">
+      <p>I'm a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and GSAP, which I use to
+        build smooth, interactive, and visually engaging web experiences. I enjoy turning creative ideas into responsive
+        and dynamic interfaces. Currently, I’m also expanding my skills into backend development to become a full-stack
+        developer. I'm always eager to learn new technologies and bring ideas to life through clean and efficient code.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education section -->
+
+  <section class="education-section" id="education">
+    <h2 id="edu-text" class="section-title">EDUCATION</h2>
+
+    <div class="bubble-container">
+
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <div class="bubble-front">
+            <i class="fa-solid fa-school"></i>
+            <h3>Class 10</h3>
+          </div>
+          <div class="bubble-back">
+            <p>Dyal Singh Public School, Jagadhri, Yamunanagar<br>Passed in 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <div class="bubble-front">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>Class 12 (PCM)</h3>
+          </div>
+          <div class="bubble-back">
+            <p>Vishva Bharti Public School, Jagadhri, Yamunanagar<br>Passed in 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <div class="bubble-front">
+            <i class="fa-solid fa-user-graduate"></i>
+            <h3>B.Tech. Electrical Engineering</h3>
+          </div>
+          <div class="bubble-back">
+            <p>Motilal Nehru National Institute of Technology,Prayagraj<br>2024–2028</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills section -->
+
+  <section id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-section">
+      <div class="skills-left">
+        <div class="skill" data-info="Structure of webpages using semantic tags."><i class="ri-html5-fill"></i>
+          <h2>HTML</h2>
+        </div>
+        <div class="skill" data-info="Styling pages with Flexbox, Grid, animations."><i class="ri-css3-fill"></i>
+          <h2>CSS</h2>
+        </div>
+        <div class="skill" data-info="Logic, DOM manipulation, ES6 features."><i class="ri-javascript-fill"></i>
+          <h2>JavaScript</h2>
+        </div>
+        <div class="skill"
+          data-info="A fast and efficient programming language widely used for problem-solving and competitive programming.">
+          <i class="devicon-cplusplus-plain"></i>
+          <h2>C++</h2>
+        </div>
+        <div class="skill" data-info="Component-based UI building with JSX."><i class="ri-reactjs-line"></i>
+          <h2>REACT</h2>
+        </div>
+        <div class="skill"
+          data-info="Handles the server-side logic, databases, and APIs to make websites and apps work behind the scenes.">
+          <i class="ri-macbook-fill"></i>
+          <h2>Currently exploring Backend Development</h2>
+        </div>
+        <div class="skill-info" id="skillInfo">Hover over a skill to see details</div>
+      </div>
+      <div class="skills-right">
+        <img src="skills-background.png" alt="Skills Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Button Wrapper -->
+  <div class="social-toggle">
+    <div class="social-icons">
+      <a href="https://github.com/Anshul20287" target="_blank"><i class="ri-github-fill"></i></a>
+      <a href="https://www.linkedin.com/in/anshul-bansal-141486324/" target="_blank"><i
+          class="ri-linkedin-fill"></i></a>
+      <a href="https://instagram.com/anshulbansal8946" target="_blank"><i class="ri-instagram-fill"></i></a>
+    </div>
+    <div class="toggle-button">
+      <i class="ri-links-fill"></i>
+    </div>
+  </div>
+
+  <!-- Contact section -->
+
+  <section id="contact" class>
+    <h2 class="section-title">CONTACT ME</h2>
+    <div id="contactus">
+      <div class="glass-card">
+        <h2 class="typewriter">Let's work together!</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button class="formBtn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- back moving cursor -->
+
+  <div id="cursor"></div>
+  <div id="cursor-blur"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+    integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
